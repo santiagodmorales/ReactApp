@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
+html {
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  h1 {
+    font-size: 3rem;
+  }
+
+  .main_cont {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .ES_container h2 {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .ES_cardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .secondary {
+    margin-top: 5px;
+    box-shadow: none !important;
+  }
+
+  .productCardContainer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }

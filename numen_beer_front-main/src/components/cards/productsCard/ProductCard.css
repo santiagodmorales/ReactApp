@@ -1,0 +1,28 @@
+
+.ProductCard{
+    min-height: 100px;
+    min-width: 150px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    transition: 0.3s;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-imgbox{
+    width: 180px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-text{
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+    
+}

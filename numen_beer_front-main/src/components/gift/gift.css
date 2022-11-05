@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
+.gift_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 120vh;
+    width: 100%;
+    background-color: #f0f1f3;
+}
+
+.img_container  {
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.img_container > img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.5);
+}
+
+ h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+p {
+    text-align: center;
+}
+span {
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .text_container {
+        text-align: center;
+        justify-content: left;
+    }
+    .gift_container {
+        grid-template-columns: repeat(2, 1fr);
+        height: 90vh;
+    }
+
+    .img_container > img {
+        height: 380px;
+        width: 380px;
+        margin-left: 250px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .img_container > img {
+        height: 480px;
+        width: 480px;
+    }
+
+    .text_container {
+        margin-top: 80px;
+        margin-left: 50px; 
+    }
+}
+
+

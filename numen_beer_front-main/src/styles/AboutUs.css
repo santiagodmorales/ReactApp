@@ -1,0 +1,9 @@
+.title{
+    color: #00382A !important;
+}
+.AboutUsContainer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

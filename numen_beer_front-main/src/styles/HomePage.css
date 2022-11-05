@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
+
+html {
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome_container {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.welcome_text {
+  background: linear-gradient(to bottom, rgba(244, 247, 244, 0.6), rgba(1, 10, 1, 0.3));
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.welcome_text h1{
+  font-size: 3.7rem;
+  margin-top: 25%;
+  width: auto;
+  text-align: center;
+}
+
+.welcome_text h3{
+  font-size: 1.4rem;
+  margin-top: 25%;
+  color: #b36c29;
+  text-shadow: 1px 1px #333;
+  width: auto;
+  text-align: center;
+}
+
+.welcome_image {
+  background: 
+    url("./../../public/images/welcome.jpg") 40%;
+  background-size: cover; 
+  width: 100%;
+  height: 100vh;
+}
+
+.primary {
+  margin-top: 20%;
+  width: 35% !important;
+  margin-left: 40%;
+}
+  
+.QS_container h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.QS_cardContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.secondary {
+  margin-top: 5px;
+  box-shadow: none !important;
+}
+
+.productCardContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .welcome_container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .welcome_text {
+    position: absolute;
+  }
+
+  .welcome_text h1 {
+    margin-top: 30%;
+    font-size: 4.1rem;
+  }  
+
+  .welcome_text h3 {
+    margin-top: 30%;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px #333;
+  }
+
+  .primary{
+    margin-top: 20%;
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    
+  .welcome_container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .welcome_text {
+    position: absolute;
+  }
+
+  .welcome_text h1 {
+    margin-top: 30%;
+    font-size: 4.4rem;
+  }  
+
+  .welcome_text h3 {
+    margin-top: 30%;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px #333;
+  }
+
+  .primary{
+    margin-top: 20%;
+    margin-left: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+  .welcome_container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .welcome_text {
+    position: absolute;
+  }
+
+  .welcome_text h1 {
+    margin-top: 10%;
+    font-size: 5.5rem;
+  }  
+
+  .welcome_text h3 {
+    margin-top: 5%;
+    font-size: 2.3rem;
+    text-shadow: 2px 2px #333;
+  }
+
+  .primary{
+    margin-top: 5%;
+    margin-left: 43%;
+  }
+}  
+
+.nav_container {
+  max-width: 100%;
+}
+
+/* Fabrica Center */
+
+.center_container {
+  width: 100%;
+  height: 53vh;
+  position: relative;
+}
+
+.center_text {
+  background: linear-gradient(to bottom, rgba(20, 32, 20, 0.6), rgba(0, 3, 0, 0.3));
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.center_text h2{
+  color: white;
+  font-size: 2.2rem;
+  margin-top: 5%;
+  width: auto;
+  text-align: center;
+}
+
+.center_image {
+  background: 
+    url("./../../public/images/wood_wallpaper.jpg");
+  background-size: cover; 
+  width: 100%;
+  height: 100%;
+}
+
+.center_logo {
+  margin-top: 5%;
+  width: 23%;
+  margin-left: 40%;
+}
+
+.primary {
+  margin-top: 5%;
+  width: 35% !important;
+  margin-left: 40%;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+
+  .center_container {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .center_text {
+    position: absolute;
+  }
+
+  .center_text h2 {
+    margin-top: 30%;
+    font-size: 3rem;
+  }  
+
+  .center_logo {
+    margin-top: 5%;
+    width: 15%;
+    margin-left: 40%;
+  }
+
+  .primary{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .center_container{
+    height: 50vh;
+    width: 100%;
+  }
+
+  .center_text {
+    position: absolute;
+  }
+
+  .center_text h2 {
+    margin-top: 5%;
+    font-size: 4rem;
+  }  
+
+  .center_logo {
+    margin-top: 5%;
+    margin-left: 43%;
+    width: 15%;
+  }
+
+  .primary{
+    margin-top: 5%;
+    margin-left: 42%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+  .center_container {
+    height: 69vh;
+    width: 100%;
+  }
+
+  .center_text {
+    position: absolute;
+  }
+
+  .center_text h2 {
+    margin-top: 3%;
+    font-size: 3.9rem;
+  }  
+
+  .center_logo {
+    margin-top: 2%;
+    width: 14%;
+  }
+
+  .primary{
+    margin-top: 3%;
+    margin-left: 44%;
+  }
+
+  
+}  

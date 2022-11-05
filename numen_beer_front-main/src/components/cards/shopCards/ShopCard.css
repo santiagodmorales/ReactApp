@@ -1,0 +1,71 @@
+
+
+.SC_container {
+    height: fit-content;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.SC_header h3 {
+    margin: 0;
+    text-align: right;
+}
+
+.SC_header h4, h6 {
+    margin: 0;
+    text-align: center;
+}
+
+
+.SC_container:hover{
+    
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.2);
+}
+
+.SC_image{
+    width: 100%;
+    min-height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.SC_info {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+}
+
+.SC_info p{
+    color: #00382A;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+
+}
+
+.description {
+    height: 100px !important;
+}
+.SC_info h5{
+    color: #00382A;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+}
+
+.img_cont {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.img_card {
+    max-height: 150px;
+}
+
